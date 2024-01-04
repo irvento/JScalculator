@@ -2,15 +2,19 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 20px;
+    background-color: black;
 }
 
+h1{
+    color: white;
+}
 button {
     padding: 10px 20px;
     margin: 5px;
     text-decoration: none;
     background-color: #3498db;
-    color: #fff;
-    border: none;
+    color: black;
+    border: solid 2px gold;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -19,7 +23,7 @@ button:hover {
     background-color: #2980b9;
 }
 .main_container{
-    margin: 10% 10% 10% 10%;
+    margin: 5% 10% 10% 10%;
 }
 .text_container{
     margin: 0 30% 2% 38%;
