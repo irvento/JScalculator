@@ -170,3 +170,110 @@ function effects(element){
         document.getElementById("textfield").innerHTML = result;
         valueholder = result;
     }
+
+
+
+    document.addEventListener("keydown", function(event) {
+
+        switch (event.keyCode) {
+            case 49: 
+                one();
+                break;
+            case 50:
+                two();
+                break;
+            case 51: 
+                three();
+                break;
+            case 52:
+                four();
+                break;
+            case 53:
+                five();
+                break;
+            case 54: 
+                six();
+                break;
+            case 55:
+                seven();
+                break;
+            case 56: 
+                eight();
+                break;
+            case 57:
+                nine();
+                break;
+            case 48:
+                zero();
+                break;    
+
+            case 96: 
+                zero();
+                break;
+            case 97:
+                one();
+                break;
+            case 98: 
+                two();
+                break;
+            case 99:
+                three();
+                break;
+            case 100:
+                four();
+                break;
+            case 101: 
+                five();
+                break;
+            case 102:
+                six();
+                break;
+            case 103: 
+                seven();
+                break;
+            case 104:
+                eight();
+                break;
+            case 105:
+                nine();
+                break;
+
+            case 67:
+                eraseall();
+                break;
+            case 46:
+                eraseall();
+                break;
+            case 8:
+                erase();
+                break;
+            
+            case 187:
+                plus();
+                break;    
+            case 189:
+                minus();
+                break;
+            case 191:
+                divide();
+                break;
+            case 53:
+                divide();
+                break;       
+            case 88:
+                multiply();
+                break;
+            case 56:
+                multiply();
+                break;
+            case 187:
+                multiply();
+                break;
+            case 13:
+                equals();
+                break;  
+
+            default:
+
+        }
+    });

@@ -17,7 +17,7 @@ button {
     border: solid 2px gold;
     border-radius: 5px;
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
 
 button:hover {
@@ -40,5 +40,7 @@ h1, h3 {
 }
 
 .highlight{
+    border: solid 2.5px black;
+    background-color: rgb(255, 235, 122);
     box-shadow: 10px 10px 72px 20px gold;
 }
